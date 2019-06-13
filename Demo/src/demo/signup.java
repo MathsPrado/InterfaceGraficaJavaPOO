@@ -39,7 +39,6 @@ public class signup extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jLabel7 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
@@ -61,7 +60,7 @@ public class signup extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(51, 0, 153));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/demo/icon.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/icon.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -77,11 +76,11 @@ public class signup extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(300, Short.MAX_VALUE))
+                .addContainerGap(370, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel2);
-        jPanel2.setBounds(0, 0, 180, 460);
+        jPanel2.setBounds(0, 0, 190, 530);
 
         jPanel3.setBackground(new java.awt.Color(51, 0, 153));
 
@@ -129,7 +128,7 @@ public class signup extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Email:");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(190, 170, 70, 22);
+        jLabel4.setBounds(200, 170, 70, 22);
 
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,25 +142,18 @@ public class signup extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Senha");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(190, 290, 60, 22);
+        jLabel5.setBounds(200, 290, 60, 22);
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Nome");
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(190, 230, 70, 22);
+        jLabel6.setBounds(200, 230, 70, 22);
 
         jButton1.setBackground(new java.awt.Color(102, 255, 51));
         jButton1.setText("Cadastrar");
         jPanel1.add(jButton1);
         jButton1.setBounds(430, 360, 110, 30);
-
-        jLabel7.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 204, 255));
-        jLabel7.setText("Já é cadastrado? click aqui");
-        jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel1.add(jLabel7);
-        jLabel7.setBounds(390, 410, 200, 17);
 
         jPanel4.setBackground(new java.awt.Color(51, 0, 153));
 
@@ -229,7 +221,7 @@ public class signup extends javax.swing.JFrame {
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Passaporte");
         jPanel1.add(jLabel9);
-        jLabel9.setBounds(490, 230, 110, 22);
+        jLabel9.setBounds(510, 230, 110, 22);
 
         jPanel7.setBackground(new java.awt.Color(51, 0, 204));
 
@@ -269,14 +261,14 @@ public class signup extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 774, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 840, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 464, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 527, Short.MAX_VALUE)
         );
 
-        setSize(new java.awt.Dimension(774, 464));
+        setSize(new java.awt.Dimension(840, 527));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -331,7 +323,6 @@ public class signup extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
